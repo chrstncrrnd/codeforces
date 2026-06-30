@@ -21,6 +21,11 @@ dir="./${num}/${letter^^}"
 mkdir -p $dir
 cp $template $dir
 
+# Create a new branch 
+
+git checkout -b "${num}/${letter^^}"
+
+
 tput bold
 echo "cd" $dir
 tput sgr0
