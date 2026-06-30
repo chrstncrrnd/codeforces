@@ -1,0 +1,4 @@
+#ignore output
+*.out
+# ignore inputs
+*.txt
