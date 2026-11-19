@@ -1,21 +1,20 @@
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 
 using namespace std;
 
-#define intinput(var) { \
-  string _buf; \
-  getline(cin, _buf); \
-  (var) = stoi(_buf); \
-}
+#define intinput(var)                                                          \
+  {                                                                            \
+    string _buf;                                                               \
+    getline(cin, _buf);                                                        \
+    (var) = stoi(_buf);                                                        \
+  }
 
-#define strinput(var) {\
-  getline(cin, (var)); \
-}
+#define strinput(var)                                                          \
+  {                                                                            \
+    getline(cin, (var));                                                       \
+  }
 
-
-// Split `str` at `delim` into a vector of strings 
+// Split `str` at `delim` into a vector of strings
 vector<string> split(const string &str, char delim) {
   vector<string> out;
   size_t start = 0, end;
@@ -28,8 +27,4 @@ vector<string> split(const string &str, char delim) {
   return out;
 }
 
-
-int main(void){
-
-  return 0;
-}
+int main(void) { return 0; }
